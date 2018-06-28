@@ -1,0 +1,13 @@
+export const fontAvenir = 'Avenir Next';
+export const fontFiraCode = 'Fira Code';
+export const fontWeightBold = 700;
+export const fontWeightDemi = 600;
+export const fontWeightRegular = 400;
+export const fontSizeLargeV = 44;
+export const fontSizeLargeIv = 32;
+export const fontSizeLargeIii = 28;
+export const fontSizeLargeIi = 24;
+export const fontSizeLargeI = 19;
+export const fontSizeRegular = 16;
+export const fontSizeSmallI = 14;
+export const fontSizeSmallIu = 11;

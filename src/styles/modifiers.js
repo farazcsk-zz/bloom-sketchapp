@@ -1,0 +1,12 @@
+export const sizeLgVii = 200;
+export const sizeLgVi = 144;
+export const sizeLgV = 96;
+export const sizeLgIv = 80;
+export const sizeLgIii = 64;
+export const sizeLgIi = 48;
+export const sizeLgI = 24;
+export const sizeRegular = 16;
+export const sizeSmI = 12;
+export const sizeSmII = 8;
+export const sizeSmIii = 4;
+export const sizeSmIv = 1.6;
