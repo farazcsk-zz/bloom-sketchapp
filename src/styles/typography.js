@@ -10,4 +10,4 @@ export const fontSizeLargeIi = 24;
 export const fontSizeLargeI = 19;
 export const fontSizeRegular = 16;
 export const fontSizeSmallI = 14;
-export const fontSizeSmallIu = 11;
+export const fontSizeSmallIi = 11;
