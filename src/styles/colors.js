@@ -1,0 +1,27 @@
+export const colorWhite = 'rgb(255, 255, 255)';
+export const colorBlack = 'rgb(25, 25, 25)';
+export const colorGold = 'rgb(186, 160, 130)';
+export const colorGoldLight = 'rgb(219, 189, 154)';
+export const colorBlue = 'rgb(25, 103, 158)';
+export const colorRed = 'rgb(213, 84, 68)';
+export const colorGreen = 'rgb(72, 213, 108)';
+export const colorOrange = 'rgb(234, 155, 82)';
+export const colorYellow = 'rgb(236, 180, 74)';
+export const colorFocusRing = 'rgb(91, 157, 217)';
+export const colorRedLight = 'rgb(236, 94, 77)';
+export const colorBlueLight = 'rgb(41, 125, 184)';
+export const colorGreyLightest = 'rgb(245, 245, 245)';
+export const colorGreyLighter = 'rgb(221, 221, 221)';
+export const colorGreyLight = 'rgb(190, 190, 190)';
+export const colorGrey = 'rgb(139, 139, 139)';
+export const colorGreyDark = 'rgb(90, 90, 90)';
+export const colorGreyDarker = 'rgb(56, 56, 56)';
+export const colorGreyDarkest = 'rgb(35, 35, 35)';
+
+export const colorPrimary = colorGold;
+export const colorAction = colorBlue;
+export const colorSuccess = colorGreen;
+export const colorDanger = colorRed;
+export const colorPrimaryLight = colorGoldLight;
+export const colorDangerLight = colorRedLight;
+export const colorActionLight = colorBlueLight;
