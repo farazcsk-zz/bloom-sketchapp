@@ -17,7 +17,7 @@ const Color = styled.View`
 
 const Swatch = ({ name, hex, rgb, variable, index }) => (
   <Root index={index}>
-    <Specimen name={name} attributes={[hex, rgb, variable]}>
+    <Specimen name={name} attributes={[hex, rgb, variable]} width={225} height={280}>
       <Color color={rgb} />
     </Specimen>
   </Root>

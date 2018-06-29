@@ -21,7 +21,7 @@ const Container = styled.View`
   align-content: stretch;
 `;
 
-const ColorPage = () => (
+const Colors = () => (
   <View>
     <H1>Colors</H1>
     <Body>
@@ -70,4 +70,4 @@ const ColorPage = () => (
   </View>
 );
 
-export default ColorPage;
+export default Colors;

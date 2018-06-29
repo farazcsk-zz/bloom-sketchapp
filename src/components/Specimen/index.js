@@ -3,11 +3,12 @@ import * as PropTypes from 'prop-types';
 import styled from 'styled-components/primitives';
 
 const Root = styled.View`
-  width: 225px;
-  height: 280px;
+  width: ${props => props.width};
+  height: ${props => props.height};
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-radius: 4px;
+  margin-top: ${props => (props.marginTop ? props.marginTop : 0)};
 `;
 
 const Header = styled.View`
@@ -24,7 +25,7 @@ const Body = styled.View`
 `;
 
 const Divider = styled.View`
-  width: 225px;
+  width: ${props => props.width - 1};
   height: 1px
   background-color: #dddddd;
 `;
@@ -46,10 +47,11 @@ const Attribute = styled.Text`
   font-family: Fira Mono;
 `;
 
-const Specimen = ({ children, attributes, name }) => {
+const Specimen = ({ children, attributes, name, width, height, marginTop }) => {
   return (
-    <Root>
+    <Root width={width} height={height} marginTop={marginTop}>
       <Header>{children}</Header>
+      <Divider width={width} />
       <Body>
         <Name>{name}</Name>
         <Attributes>
