@@ -11961,6 +11961,10 @@ var _Typography = __webpack_require__(192);
 
 var _Typography2 = _interopRequireDefault(_Typography);
 
+var _Iconography = __webpack_require__(193);
+
+var _Iconography2 = _interopRequireDefault(_Iconography);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
@@ -11978,6 +11982,11 @@ exports['default'] = function () {
       _reactSketchapp.Page,
       { name: 'Typography' },
       React.createElement(_Typography2['default'], null)
+    ),
+    React.createElement(
+      _reactSketchapp.Page,
+      { name: 'Iconography' },
+      React.createElement(_Iconography2['default'], null)
     )
   ), context.document);
 };
@@ -45724,6 +45733,2053 @@ var Typography = function Typography() {
 };
 
 exports['default'] = Typography;
+
+/***/ }),
+/* 193 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _templateObject = _taggedTemplateLiteral(['\n  max-width: ', ';\n'], ['\n  max-width: ', ';\n']),
+    _templateObject2 = _taggedTemplateLiteral(['\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n'], ['\n  display: flex;\n  flex-direction: row;\n  justify-content: space-around;\n  align-items: center;\n  flex-wrap: wrap;\n']);
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+var _primitives = __webpack_require__(18);
+
+var _primitives2 = _interopRequireDefault(_primitives);
+
+var _Headings = __webpack_require__(73);
+
+var _Specimen = __webpack_require__(75);
+
+var _Specimen2 = _interopRequireDefault(_Specimen);
+
+var _Account = __webpack_require__(195);
+
+var _Account2 = _interopRequireDefault(_Account);
+
+var _Appearhere = __webpack_require__(196);
+
+var _Appearhere2 = _interopRequireDefault(_Appearhere);
+
+var _AppearhereBrackets = __webpack_require__(197);
+
+var _AppearhereBrackets2 = _interopRequireDefault(_AppearhereBrackets);
+
+var _Arrow = __webpack_require__(198);
+
+var _Arrow2 = _interopRequireDefault(_Arrow);
+
+var _AutomaticPayments = __webpack_require__(199);
+
+var _AutomaticPayments2 = _interopRequireDefault(_AutomaticPayments);
+
+var _Bogroll = __webpack_require__(200);
+
+var _Bogroll2 = _interopRequireDefault(_Bogroll);
+
+var _Book = __webpack_require__(201);
+
+var _Book2 = _interopRequireDefault(_Book);
+
+var _Calendar = __webpack_require__(202);
+
+var _Calendar2 = _interopRequireDefault(_Calendar);
+
+var _CalendarInsight = __webpack_require__(203);
+
+var _CalendarInsight2 = _interopRequireDefault(_CalendarInsight);
+
+var _CardList = __webpack_require__(204);
+
+var _CardList2 = _interopRequireDefault(_CardList);
+
+var _Camera = __webpack_require__(205);
+
+var _Camera2 = _interopRequireDefault(_Camera);
+
+var _ChartArrow = __webpack_require__(206);
+
+var _ChartArrow2 = _interopRequireDefault(_ChartArrow);
+
+var _Chatting = __webpack_require__(207);
+
+var _Chatting2 = _interopRequireDefault(_Chatting);
+
+var _Chevron = __webpack_require__(208);
+
+var _Chevron2 = _interopRequireDefault(_Chevron);
+
+var _ChevronRight = __webpack_require__(209);
+
+var _ChevronRight2 = _interopRequireDefault(_ChevronRight);
+
+var _Clock = __webpack_require__(210);
+
+var _Clock2 = _interopRequireDefault(_Clock);
+
+var _Comment = __webpack_require__(211);
+
+var _Comment2 = _interopRequireDefault(_Comment);
+
+var _Cross = __webpack_require__(212);
+
+var _Cross2 = _interopRequireDefault(_Cross);
+
+var _Dollar = __webpack_require__(213);
+
+var _Dollar2 = _interopRequireDefault(_Dollar);
+
+var _Download = __webpack_require__(214);
+
+var _Download2 = _interopRequireDefault(_Download);
+
+var _Facebook = __webpack_require__(215);
+
+var _Facebook2 = _interopRequireDefault(_Facebook);
+
+var _Filter = __webpack_require__(216);
+
+var _Filter2 = _interopRequireDefault(_Filter);
+
+var _Globe = __webpack_require__(217);
+
+var _Globe2 = _interopRequireDefault(_Globe);
+
+var _Heart = __webpack_require__(218);
+
+var _Heart2 = _interopRequireDefault(_Heart);
+
+var _Location = __webpack_require__(219);
+
+var _Location2 = _interopRequireDefault(_Location);
+
+var _Manage = __webpack_require__(220);
+
+var _Manage2 = _interopRequireDefault(_Manage);
+
+var _Map = __webpack_require__(221);
+
+var _Map2 = _interopRequireDefault(_Map);
+
+var _Menu = __webpack_require__(222);
+
+var _Menu2 = _interopRequireDefault(_Menu);
+
+var _Minus = __webpack_require__(223);
+
+var _Minus2 = _interopRequireDefault(_Minus);
+
+var _Notification = __webpack_require__(224);
+
+var _Notification2 = _interopRequireDefault(_Notification);
+
+var _Percentage = __webpack_require__(225);
+
+var _Percentage2 = _interopRequireDefault(_Percentage);
+
+var _Pintrest = __webpack_require__(226);
+
+var _Pintrest2 = _interopRequireDefault(_Pintrest);
+
+var _Play = __webpack_require__(227);
+
+var _Play2 = _interopRequireDefault(_Play);
+
+var _PlayC = __webpack_require__(228);
+
+var _PlayC2 = _interopRequireDefault(_PlayC);
+
+var _Plus = __webpack_require__(229);
+
+var _Plus2 = _interopRequireDefault(_Plus);
+
+var _Radio = __webpack_require__(230);
+
+var _Radio2 = _interopRequireDefault(_Radio);
+
+var _Search = __webpack_require__(231);
+
+var _Search2 = _interopRequireDefault(_Search);
+
+var _Shield = __webpack_require__(232);
+
+var _Shield2 = _interopRequireDefault(_Shield);
+
+var _Signature = __webpack_require__(233);
+
+var _Signature2 = _interopRequireDefault(_Signature);
+
+var _Star = __webpack_require__(234);
+
+var _Star2 = _interopRequireDefault(_Star);
+
+var _Store = __webpack_require__(235);
+
+var _Store2 = _interopRequireDefault(_Store);
+
+var _Teamwork = __webpack_require__(236);
+
+var _Teamwork2 = _interopRequireDefault(_Teamwork);
+
+var _Tick = __webpack_require__(237);
+
+var _Tick2 = _interopRequireDefault(_Tick);
+
+var _TickC = __webpack_require__(238);
+
+var _TickC2 = _interopRequireDefault(_TickC);
+
+var _Ticket = __webpack_require__(239);
+
+var _Ticket2 = _interopRequireDefault(_Ticket);
+
+var _TickStarred = __webpack_require__(240);
+
+var _TickStarred2 = _interopRequireDefault(_TickStarred);
+
+var _TravelIdea = __webpack_require__(241);
+
+var _TravelIdea2 = _interopRequireDefault(_TravelIdea);
+
+var _modifiers = __webpack_require__(41);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+function _taggedTemplateLiteral(strings, raw) { return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var Body = _primitives2['default'].View(_templateObject, _modifiers.sizeLgVii * 5);
+
+var Container = _primitives2['default'].View(_templateObject2);
+
+var Iconography = function Iconography() {
+  return React.createElement(
+    _reactSketchapp.View,
+    null,
+    React.createElement(
+      _Headings.H1,
+      null,
+      'Iconography'
+    ),
+    React.createElement(
+      Body,
+      null,
+      React.createElement(
+        _Headings.H2,
+        null,
+        'UI Icons'
+      ),
+      React.createElement(
+        Container,
+        null,
+        React.createElement(_Account2['default'], null),
+        React.createElement(_Appearhere2['default'], null),
+        React.createElement(_AppearhereBrackets2['default'], null),
+        React.createElement(_Arrow2['default'], null),
+        React.createElement(_AutomaticPayments2['default'], null),
+        React.createElement(_Bogroll2['default'], null),
+        React.createElement(_Book2['default'], null),
+        React.createElement(_Calendar2['default'], null),
+        React.createElement(_CalendarInsight2['default'], null),
+        React.createElement(_CardList2['default'], null),
+        React.createElement(_Camera2['default'], null),
+        React.createElement(_ChartArrow2['default'], null),
+        React.createElement(_Chatting2['default'], null),
+        React.createElement(_Chevron2['default'], null),
+        React.createElement(_ChevronRight2['default'], null),
+        React.createElement(_Clock2['default'], null),
+        React.createElement(_Comment2['default'], null),
+        React.createElement(_Cross2['default'], null),
+        React.createElement(_Dollar2['default'], null),
+        React.createElement(_Download2['default'], null),
+        React.createElement(_Facebook2['default'], null),
+        React.createElement(_Filter2['default'], null),
+        React.createElement(_Globe2['default'], null),
+        React.createElement(_Heart2['default'], null),
+        React.createElement(_Location2['default'], null),
+        React.createElement(_Manage2['default'], null),
+        React.createElement(_Map2['default'], null),
+        React.createElement(_Menu2['default'], null),
+        React.createElement(_Minus2['default'], null),
+        React.createElement(_Notification2['default'], null),
+        React.createElement(_Percentage2['default'], null),
+        React.createElement(_Pintrest2['default'], null),
+        React.createElement(_Play2['default'], null),
+        React.createElement(_PlayC2['default'], null),
+        React.createElement(_Plus2['default'], null),
+        React.createElement(_Radio2['default'], null),
+        React.createElement(_Search2['default'], null),
+        React.createElement(_Shield2['default'], null),
+        React.createElement(_Signature2['default'], null),
+        React.createElement(_Star2['default'], null),
+        React.createElement(_Store2['default'], null),
+        React.createElement(_Teamwork2['default'], null),
+        React.createElement(_Tick2['default'], null),
+        React.createElement(_TickC2['default'], null),
+        React.createElement(_Ticket2['default'], null),
+        React.createElement(_TickStarred2['default'], null),
+        React.createElement(_TravelIdea2['default'], null)
+      ),
+      React.createElement(
+        _Headings.H2,
+        null,
+        'Brand Icons'
+      ),
+      React.createElement(Container, null),
+      React.createElement(
+        _Headings.H2,
+        null,
+        'Value Icons'
+      ),
+      React.createElement(Container, null),
+      React.createElement(
+        _Headings.H2,
+        null,
+        'Space Type Icons'
+      ),
+      React.createElement(Container, null)
+    )
+  );
+};
+
+exports['default'] = Iconography;
+
+/***/ }),
+/* 194 */,
+/* 195 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Account = function Account() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16',
+      height: '16',
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, { d: 'M1,2.86H15V12.7H1ZM1,5.5H15M1,7.5H15m-5,3h3', fill: 'none', stroke: '#191919' })
+  );
+};
+
+exports['default'] = Account;
+
+/***/ }),
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Appearhere = function Appearhere() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: '_01',
+      'data-name': '01',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 92.02 15',
+      width: '92',
+      height: '15'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'AppearHere',
+      d: 'M87.8,15V13.16h2V1.84h-2V0H92V15H87.8ZM81.57,8.76a1.07,1.07,0,0,0,1.11,1.16,1,1,0,0,0,.93-0.56h1.53a2.37,2.37,0,0,1-2.48,1.7,2.54,2.54,0,0,1-2.73-2.72,2.65,2.65,0,0,1,2.69-2.69c1.79,0,2.68,1.38,2.6,3.12H81.57Zm1.06-2a1.09,1.09,0,0,0-1.06,1h2A1,1,0,0,0,82.63,6.78ZM79,7.16A1.16,1.16,0,0,0,77.8,8.38v2.53H76.17V5.79h1.59v0.9h0a1.49,1.49,0,0,1,1.5-1,1.71,1.71,0,0,1,.38,0V7.26A2,2,0,0,0,79,7.16Zm-7.29,1.6a1.07,1.07,0,0,0,1.12,1.16,1,1,0,0,0,.93-0.56h1.53a2.37,2.37,0,0,1-2.48,1.7A2.54,2.54,0,0,1,70.1,8.34,2.65,2.65,0,0,1,72.8,5.65c1.79,0,2.68,1.38,2.6,3.12H71.74Zm1.06-2a1.09,1.09,0,0,0-1.06,1h2A1,1,0,0,0,72.8,6.78ZM67.72,8.44V7.92A0.75,0.75,0,0,0,66.9,7,1,1,0,0,0,66,8.12v2.79H64.38v-7H66V6.49h0a1.74,1.74,0,0,1,1.52-.85,1.68,1.68,0,0,1,1.8,2v3.28H67.72V8.44ZM56.72,0h4.23V1.84H59V13.16h2V15H56.72V0ZM49.09,8.18V12H46.81V3.52H49V5.09h0a2.91,2.91,0,0,1,2.64-1.81,1.65,1.65,0,0,1,.5.08V5.54a4,4,0,0,0-.82-0.08C49.65,5.45,49.09,6.67,49.09,8.18Zm-6.1,3a3.72,3.72,0,0,1-2.79,1.05c-1.59,0-2.82-.81-2.82-2.55,0-3.86,5.6-1.79,5.51-3.7,0-1-.67-1.15-1.47-1.15a1.3,1.3,0,0,0-1.5,1.28H37.63c0.13-2.17,2-2.84,3.89-2.84,1.65,0,3.64.38,3.64,2.42v4.42A4.45,4.45,0,0,0,45.45,12H43.14A3.55,3.55,0,0,1,43,11.19Zm-0.1-3.34A4.43,4.43,0,0,1,41,8.35a1.3,1.3,0,0,0-1.34,1.25A1.13,1.13,0,0,0,41,10.68a1.71,1.71,0,0,0,1.84-2V7.85Zm-12.23.48c0.06,1.49.75,2.15,2,2.15a1.87,1.87,0,0,0,1.79-1.1h2a3.72,3.72,0,0,1-3.87,2.86c-2.61,0-4.23-1.84-4.23-4.47a4.21,4.21,0,0,1,4.23-4.49c2.82,0,4.2,2.43,4,5h-6ZM32.54,5a1.81,1.81,0,0,0-1.89,1.81h3.7C34.14,5.67,33.65,5,32.54,5Zm-8.62,7.2A2.92,2.92,0,0,1,21.44,11h0v4H19.13V3.52h2.16V4.6h0a2.72,2.72,0,0,1,2.47-1.31c2.59,0,3.76,2.15,3.76,4.57S26.35,12.24,23.92,12.24ZM23.29,5c-1.49,0-2,1.36-2,2.74s0.51,2.69,2,2.69,2-1.31,2-2.69S24.75,5,23.29,5Zm-9.07,7.2A2.91,2.91,0,0,1,11.74,11h0v4H9.43V3.52H11.6V4.6h0a2.72,2.72,0,0,1,2.47-1.31c2.59,0,3.76,2.15,3.76,4.57S16.66,12.24,14.22,12.24ZM13.6,5c-1.49,0-2,1.36-2,2.74s0.51,2.69,2,2.69,2-1.31,2-2.69S15.06,5,13.6,5Zm-8,6.14a3.72,3.72,0,0,1-2.79,1.05C1.23,12.24,0,11.43,0,9.69,0,5.83,5.6,7.9,5.51,6c0-1-.67-1.15-1.47-1.15a1.3,1.3,0,0,0-1.5,1.28H0.26C0.38,4,2.29,3.29,4.15,3.29c1.65,0,3.64.38,3.64,2.42v4.42A4.46,4.46,0,0,0,8.07,12H5.77A3.51,3.51,0,0,1,5.6,11.19ZM5.51,7.85a4.43,4.43,0,0,1-1.89.49A1.3,1.3,0,0,0,2.27,9.59a1.13,1.13,0,0,0,1.39,1.08,1.71,1.71,0,0,0,1.84-2V7.85Z'
+    })
+  );
+};
+
+exports['default'] = Appearhere;
+
+/***/ }),
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var AppearhereBrackets = function AppearhereBrackets() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: '_01', 'data-name': '01', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16.67 15', width: '16.67', height: '15' },
+    React.createElement(_reactSketchapp.Svg.Path, { d: 'M12.54,15V13.16h1.91V1.84H12.54V0h4.13V15H12.54ZM0,0H4.13V1.84H2.22V13.16H4.13V15H0V0Z' })
+  );
+};
+
+exports['default'] = AppearhereBrackets;
+
+/***/ }),
+/* 198 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Arrow = function Arrow() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Line, { x1: '13.17', y1: '7.97', x2: '2.83', y2: '8.03', stroke: '#191919' }),
+    React.createElement(_reactSketchapp.Svg.Polyline, { points: '10.48 5.25 13.23 8 10.48 10.75' })
+  );
+};
+
+exports['default'] = Arrow;
+
+/***/ }),
+/* 199 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var AutomaticPayments = function AutomaticPayments() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, { d: 'M14.83,6.46A7,7,0,0,1,2.71,12.59m10.75-9A7,7,0,0,0,1.17,9.51M11.52,4.06,14,4l-.54-2.55M4.66,12.14l-2.46,0,.54,2.55M6.36,8.13H9m.66,2.37H6.33A4.54,4.54,0,0,0,7.37,7c-.1-2.37,2-1.58,2-.49', fill: 'none', stroke: '#191919' })
+  );
+};
+
+exports['default'] = AutomaticPayments;
+
+/***/ }),
+/* 200 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Bogroll = function Bogroll() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 -1 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      {
+        id: 'Page-1',
+        stroke: 'none',
+        strokeWidth: '1',
+        fill: 'none',
+        fillRule: 'evenodd',
+        transform: 'translate(1.000000, 0.000000)',
+        strokeLinecap: 'round',
+        strokeLinejoin: 'round'
+      },
+      React.createElement(_reactSketchapp.Svg.Path, {
+        d: 'M8.1204375,13.967975 L8.0346875,13.882225 C7.9498125,13.79735 7.8220625,13.754475 7.6934375,13.754475 C7.5656875,13.754475 7.4379375,13.79735 7.3521875,13.882225 L6.8403125,14.43785 L6.3275625,13.882225 C6.2426875,13.79735 6.1140625,13.754475 5.9863125,13.754475 C5.8585625,13.754475 5.7299375,13.79735 5.6450625,13.882225 L5.1323125,14.43785 L4.6204375,13.882225 C4.5346875,13.79735 4.4069375,13.754475 4.2791875,13.754475 C4.1505625,13.754475 4.0228125,13.79735 3.9379375,13.882225 L3.4251875,14.43785 L2.9133125,13.882225 C2.8275625,13.79735 2.6998125,13.754475 2.5720625,13.754475 C2.4434375,13.754475 2.3156875,13.79735 2.2299375,13.882225 L1.7180625,14.43785 L1.2061875,13.882225 C1.0346875,13.7116 0.6934375,13.7116 0.5228125,13.882225 L0.4379375,13.967975 L0.4379375,5.51635 L0.4379375,4.577475 C0.5228125,3.51085 0.8220625,2.486225 1.2910625,1.717975 C1.8029375,0.90685 2.4863125,0.43785 3.2116875,0.43785 L11.0236875,0.43785 C8.8921875,0.730975 8.2061875,2.827475 8.1204375,4.535475 L8.1204375,4.876725 L8.1204375,5.004475 L8.1204375,13.967975 L8.1204375,13.967975 Z',
+        id: 'Stroke-1',
+        stroke: '#000000'
+      }),
+      React.createElement(_reactSketchapp.Svg.Path, {
+        d: 'M11.0236,9.571625 C9.4871,9.571625 8.2061,7.480375 8.2061,5.004125 C8.2061,2.52875 9.4871,0.4375 11.0236,0.4375 C12.5601,0.4375 13.8411,2.52875 13.8411,5.004125 C13.8411,7.480375 12.517225,9.571625 11.0236,9.571625 L11.0236,9.571625 Z',
+        id: 'Stroke-3',
+        stroke: '#000000'
+      }),
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M11.0236,9.571625 L8.2061,9.571625', id: 'Stroke-5', stroke: '#000000' }),
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M0.4375,7.1423625 L1.920625,7.1423625', id: 'Stroke-7', stroke: '#000000' }),
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M3.4271125,7.1423625 L4.9102375,7.1423625', id: 'Stroke-9', stroke: '#000000' }),
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M6.416725,7.1423625 L7.89985,7.1423625', id: 'Stroke-11', stroke: '#000000' }),
+      React.createElement(_reactSketchapp.Svg.Path, {
+        d: 'M11.570475,5.0045625 C11.570475,5.4683125 11.325475,5.8445625 11.0236,5.8445625 C10.721725,5.8445625 10.476725,5.4683125 10.476725,5.0045625 C10.476725,4.5408125 10.721725,4.1645625 11.0236,4.1645625 C11.325475,4.1645625 11.570475,4.5408125 11.570475,5.0045625 L11.570475,5.0045625 Z',
+        id: 'Stroke-13',
+        stroke: '#000000'
+      })
+    )
+  );
+};
+
+exports['default'] = Bogroll;
+
+/***/ }),
+/* 201 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Book = function Book() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M0,13.34V2.68s7-1.54,8,0V13.34C7,14.82,0,13.34,0,13.34Zm8,0V2.68c1-1.54,8,0,8,0V13.34S9,14.82,8,13.34ZM2,5H6M2,8H6M2,11H6m4-6h4M10,8h4m-4,3h4',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Book;
+
+/***/ }),
+/* 202 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Calendar = function Calendar() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Rect, { x: '1', y: '3', width: '14', height: '12', fill: 'none', stroke: '#191919' }),
+    React.createElement(_reactSketchapp.Svg.Line, { x1: '12', y1: '1', x2: '12', y2: '6', stroke: '#191919' }),
+    React.createElement(_reactSketchapp.Svg.Line, { x1: '4', y1: '1', x2: '4', y2: '6', stroke: '#191919' })
+  );
+};
+
+exports['default'] = Calendar;
+
+/***/ }),
+/* 203 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var CalendarInsight = function CalendarInsight() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { x: '0', y: '0', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M4.1,7V2.2h11.3v9.7H8.9 M13,0.5v4 M6.6,0.5v4 M2.1,11.4c0,1.3,1,2.4,2.3,2.4c1.3,0,2.4-1,2.4-2.3c0-1.3-1-2.4-2.3-2.4c0,0,0,0,0,0C3.2,9.1,2.1,10.2,2.1,11.4L2.1,11.4z M2.8,13.1l-2.3,2.3',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = CalendarInsight;
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var CardList = function CardList() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      version: '1.1',
+      id: 'Layer_1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      x: '0px',
+      y: '0px',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      null,
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M15,0H1C0.4,0,0,0.4,0,1v4.7c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1V1C16,0.4,15.6,0,15,0z M15,5.7H1V1h14V5.7z' }),
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M15,9.3H1c-0.6,0-1,0.4-1,1V15c0,0.6,0.4,1,1,1h14c0.6,0,1-0.4,1-1v-4.7C16,9.8,15.6,9.3,15,9.3z M15,15H1v-4.7h14V15z' })
+    )
+  );
+};
+
+exports['default'] = CardList;
+
+/***/ }),
+/* 205 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Camera = function Camera() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'camera',
+      d: 'M0.5,3.77h15v11H0.5v-11Zm0.56-2.5H4.22M8,6.26a2.93,2.93,0,0,0-2.87,3,2.93,2.93,0,0,0,2.87,3,2.93,2.93,0,0,0,2.87-3A2.93,2.93,0,0,0,8,6.26Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Camera;
+
+/***/ }),
+/* 206 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var ChartArrow = function ChartArrow() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'chartarrow',
+      d: 'M14.62,7.75V3.42L9.31,10,6.84,6.83,1.38,12.61',
+      fill: 'none',
+      stroke: '#191919'
+    }),
+    React.createElement(_reactSketchapp.Svg.Line, { x1: '14.6', y1: '3.41', x2: '10.27', y2: '3.41', fill: 'none', stroke: '#191919' }),
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'chartarrow-2',
+      'data-name': 'chartarrow',
+      d: 'M10.27,3.41m4.33,0',
+      fill: 'none',
+      stroke: 'none'
+    })
+  );
+};
+
+exports['default'] = ChartArrow;
+
+/***/ }),
+/* 207 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Chatting = function Chatting() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'chatting',
+      d: 'M6.52,8L5.27,9.33,5.24,8H2.69A2.19,2.19,0,0,1,.5,5.87V5A2.19,2.19,0,0,1,2.69,2.78H6.52A2.19,2.19,0,0,1,8.7,5V5.87A2.19,2.19,0,0,1,6.52,8h0ZM9.78,6.67h3.54A2.19,2.19,0,0,1,15.5,8.84V9.75a2.19,2.19,0,0,1-2.19,2.18H10.76l0,1.29L9.48,11.93h0A2.19,2.19,0,0,1,7.3,9.75V9',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Chatting;
+
+/***/ }),
+/* 208 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Chevron = function Chevron() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Chevron-up', fill: '#000000' },
+        React.createElement(_reactSketchapp.Svg.Polygon, {
+          id: 'Right-Arrow',
+          transform: 'translate(8.000000, 8.000000) rotate(-90.000000) translate(-8.000000, -8.000000) ',
+          points: '4.89189189 0 3 1.86666667 9.21621622 8 3 14.1333333 4.89189189 16 13 8'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Chevron;
+
+/***/ }),
+/* 209 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var ChevronRight = function ChevronRight() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Icon-Chevron-right', fillRule: 'nonzero', fill: '#000000' },
+        React.createElement(_reactSketchapp.Svg.Polygon, {
+          id: 'Shape',
+          points: '5.33478735 15 4 13.5517241 10.0752454 7.93596059 4.00981461 2.4679803 5.32497274 1 13 7.92610837'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = ChevronRight;
+
+/***/ }),
+/* 210 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Clock = function Clock() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M15.32,6.35a7.5,7.5,0,0,1-13,6.57M13.85,3.31A7.5,7.5,0,0,0,.68,9.62M11.77,3.78l2.63,0L13.83,1M4.42,12.44l-2.63,0,.58,2.73M7.5,5V9L11,10.81',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Clock;
+
+/***/ }),
+/* 211 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Comment = function Comment() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'comment',
+      d: 'M11.5,11.64L9.22,14,9.17,11.64H4.5a4,4,0,0,1-4-4V6a4,4,0,0,1,4-4h7a4,4,0,0,1,4,4V7.65a4,4,0,0,1-4,4h0Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Comment;
+
+/***/ }),
+/* 212 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Cross = function Cross() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'icon-x', fill: '#191919' },
+        React.createElement(_reactSketchapp.Svg.Path, {
+          d: 'M9,7 L9,1 L7,1 L7,7 L1,7 L1,9 L7,9 L7,15 L9,15 L9,9 L15,9 L15,7 L9,7 Z',
+          id: 'Combined-Shape',
+          transform: 'translate(8.000000, 8.000000) rotate(45.000000) translate(-8.000000, -8.000000) '
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Cross;
+
+/***/ }),
+/* 213 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Dollar = function Dollar() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'dollar',
+      d: 'M7.41,3.21a3.21,3.21,0,0,0-1.91.64,1.91,1.91,0,0,0-.78,1.59,1.71,1.71,0,0,0,.74,1.47,5.19,5.19,0,0,0,2,.79m0.84,5.78a4.79,4.79,0,0,0,1.05-.17,3.05,3.05,0,0,0,1-.46A2.46,2.46,0,0,0,11,12.05a2.49,2.49,0,0,0,.28-1.22,2.08,2.08,0,0,0-.86-1.68,5.84,5.84,0,0,0-2.17-1M7.73,0.5v15m0-1.94s-2.6.11-2.9-1.66M7.35,3.21s3.11-.14,3.48,1.63',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Dollar;
+
+/***/ }),
+/* 214 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Download = function Download() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { x: '0', y: '0', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M14.6,12v2.4H1.4v-2.5 M5.4,9L8,12L8,1.6 M10.4,9L8,12',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Download;
+
+/***/ }),
+/* 215 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Facebook = function Facebook() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      'data-name': 'Layer 21',
+      height: '16',
+      id: 'Layer_21',
+      viewBox: '0 0 16 16',
+      width: '16',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M16.75,9H13.5V7a1,1,0,0,1,1-1h2V3H14a4,4,0,0,0-4,4V9H8v3h2v9h3.5V12H16Z'
+    })
+  );
+};
+
+exports['default'] = Facebook;
+
+/***/ }),
+/* 216 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Filter = function Filter() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      version: '1.1',
+      id: 'Layer_1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      x: '0px',
+      y: '0px',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, { d: 'M15.5,12.5c0.3,0,0.5,0.2,0.5,0.5s-0.2,0.5-0.5,0.5h-15C0.2,13.5,0,13.3,0,13s0.2-0.5,0.5-0.5H15.5z M3,5 c0,0.8,0.7,1.5,1.5,1.5C5.4,6.5,6,5.8,6,5S5.4,3.5,4.5,3.5C3.7,3.5,3,4.2,3,5z M2.1,5.5H0.5C0.2,5.5,0,5.3,0,5s0.2-0.5,0.5-0.5h1.6 c0.2-1.1,1.2-2,2.4-2s2.2,0.9,2.4,2h8.5C15.8,4.5,16,4.7,16,5s-0.2,0.5-0.5,0.5H7c-0.2,1.1-1.2,2-2.4,2S2.3,6.6,2.1,5.5z' })
+  );
+};
+
+exports['default'] = Filter;
+
+/***/ }),
+/* 217 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Globe = function Globe() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M8,14.13v1.22M8,3.49A4.16,4.16,0,0,0,4,8.7,3.93,3.93,0,0,0,5.56,11,4,4,0,0,0,8,11.81,4.16,4.16,0,0,0,8,3.49M4.4,12.64A5.93,5.93,0,0,0,8,13.8,6.15,6.15,0,0,0,8,1.5M6.2,15.5H10M6.92,11.6a2.41,2.41,0,0,0,.6-1.84c0.09-.89-0.61-1.17-1-1.87A5.18,5.18,0,0,1,6.36,6a5.46,5.46,0,0,0-1-1.44m4.53-.42S8.83,6,10,7A4.69,4.69,0,0,0,12,7.88',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Globe;
+
+/***/ }),
+/* 218 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Heart = function Heart() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Artboard-2', stroke: '#FFFFFF', strokeWidth: '2', fill: '#191919' },
+        React.createElement(_reactSketchapp.Svg.Path, {
+          d: 'M21.1126984,12.4470474 L12,21.5597458 L2.88730163,12.4470474 C0.370899457,9.93064527 0.370899457,5.85075124 2.88730163,3.33434907 C5.4037038,0.817946895 9.48359783,2.1929469 12,4.70934907 C14.5164022,2.1929469 18.5962962,0.817946895 21.1126984,3.33434907 C23.6291005,5.85075124 23.6291005,9.93064527 21.1126984,12.4470474 Z',
+          id: 'Combined-Shape'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Heart;
+
+/***/ }),
+/* 219 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Location = function Location() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M12.94,5.81C12.94,8.54,10.73,15,8,15S3.06,8.54,3.06,5.81a4.94,4.94,0,0,1,9.88,0ZM8.09,4.56A1.34,1.34,0,1,0,9.44,5.91,1.34,1.34,0,0,0,8.09,4.56Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Location;
+
+/***/ }),
+/* 220 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Manage = function Manage() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'manage',
+      d: 'M5.5,1.5h5v5h-5v-5Zm-4,13h3v-3h-3v3Zm10,0h3v-3h-3v3ZM12,7l1.38,2.75M4,7L3,10',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Manage;
+
+/***/ }),
+/* 221 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Map = function Map() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      version: '1.1',
+      id: 'Layer_1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      x: '0px',
+      y: '0px',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      null,
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M0.5,15.5c-0.1,0-0.2,0-0.3-0.1C0.1,15.3,0,15.2,0,15V2.9c0-0.2,0.1-0.4,0.3-0.5l5-1.9c0.2-0.1,0.3,0,0.5,0.1 C5.9,0.7,6,0.8,6,1v12.1c0,0.2-0.1,0.4-0.3,0.5l-5,1.9C0.6,15.5,0.6,15.5,0.5,15.5z M1,3.2v11.1l4-1.5V1.7L1,3.2z M5.5,13.1 L5.5,13.1L5.5,13.1z' })
+    ),
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      null,
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M10.5,15.5c-0.1,0-0.2,0-0.3-0.1C10.1,15.3,10,15.2,10,15V2.9c0-0.2,0.1-0.4,0.3-0.5l5-1.9c0.2-0.1,0.3,0,0.5,0.1 C15.9,0.7,16,0.8,16,1v12.1c0,0.2-0.1,0.4-0.3,0.5l-5,1.9C10.6,15.5,10.6,15.5,10.5,15.5z M11,3.2v11.1l4-1.5V1.7L11,3.2z M15.5,13.1L15.5,13.1L15.5,13.1z' })
+    ),
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      null,
+      React.createElement(_reactSketchapp.Svg.Path, { d: 'M10.5,15.5c-0.1,0-0.1,0-0.2,0l-5-1.9C5.1,13.5,5,13.3,5,13.1V1c0-0.2,0.1-0.3,0.2-0.4c0.1-0.1,0.3-0.1,0.5-0.1l5,1.9 C10.9,2.5,11,2.7,11,2.9V15c0,0.2-0.1,0.3-0.2,0.4C10.7,15.5,10.6,15.5,10.5,15.5z M6,12.8l4,1.5V3.2L6,1.7V12.8z' })
+    )
+  );
+};
+
+exports['default'] = Map;
+
+/***/ }),
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Menu = function Menu() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'icon-/icon_hamburger_01', fill: '#000000' },
+        React.createElement(_reactSketchapp.Svg.Path, {
+          d: 'M2,2 L14,2 L14,4 L2,4 L2,2 Z M2,7 L14,7 L14,9 L2,9 L2,7 Z M2,12 L14,12 L14,14 L2,14 L2,12 Z',
+          id: 'Combined-Shape'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Menu;
+
+/***/ }),
+/* 223 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Minus = function Minus() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '14px',
+      height: '2px',
+      viewBox: '0 0 14 2',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Artboard-Copy', fill: '#191919' },
+        React.createElement(_reactSketchapp.Svg.Rect, { id: 'Rectangle-5-Copy', x: '1', y: '7', width: '14', height: '2' })
+      )
+    )
+  );
+};
+
+exports['default'] = Minus;
+
+/***/ }),
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Notification = function Notification() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M10.33,13.53h0a1.88,1.88,0,0,1-1.88,1.88h0a1.88,1.88,0,0,1-1.88-1.88h0M10.33,1A6.45,6.45,0,0,0,8.08.59h0A6.7,6.7,0,0,0,1.47,7.33V13M14.7,13V7.33a6.82,6.82,0,0,0-.19-1.62M.58,13.13H15.42M13.26,1A1.74,1.74,0,1,0,15,2.74,1.74,1.74,0,0,0,13.26,1Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Notification;
+
+/***/ }),
+/* 225 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Percentage = function Percentage() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'percentage',
+      d: 'M15.5,0.5l-15,15m2.67-15A2.67,2.67,0,1,0,5.83,3.17,2.67,2.67,0,0,0,3.17.5Zm9.67,9.67a2.67,2.67,0,1,0,2.67,2.67A2.67,2.67,0,0,0,12.83,10.17Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Percentage;
+
+/***/ }),
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Pintrest = function Pintrest() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      'data-name': 'Layer 21',
+      height: '16',
+      id: 'Layer_21',
+      viewBox: '0 0 24 24',
+      width: '16',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, { d: 'M12.05689,3.41667A6.92132,6.92132,0,0,0,4.99219,10.187a3.93842,3.93842,0,0,0,1.937,3.67044.53625.53625,0,0,0,.79812-.33718l.19277-.823a.50436.50436,0,0,0-.14323-.499,2.69066,2.69066,0,0,1-.73672-2.39653,5.03722,5.03722,0,0,1,4.975-4.57643c3.12027-.05518,5.00867,1.8975,4.3626,5.66614-.68545,3.99861-3.9774,4.86143-4.75694,2.69328a2.00728,2.00728,0,0,1,.02829-1.21247c.17891-.61969.4894-1.59175.64116-2.13062.35887-1.27427.23248-2.45578-.92719-2.74062-.89886-.22077-1.805.38623-2.19719,1.76525a3.88589,3.88589,0,0,0,.22638,2.4543L8.01981,17.405a4.37535,4.37535,0,0,0-.118,1.21957l.12181,2.76261A.236.236,0,0,0,8.468,21.487l1.32992-2.51835a4.37535,4.37535,0,0,0,.36863-.954l.71136-2.7678c2.35839,3.0342,7.31862.59536,7.99979-3.96644C19.651,6.10086,16.68257,3.45868,12.05689,3.41667Z' })
+  );
+};
+
+exports['default'] = Pintrest;
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Play = function Play() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Polygon, { id: 'play', points: '2.46 15.5 2.46 0.5 13.54 8 2.46 15.5', fill: 'none', stroke: '#191919' })
+  );
+};
+
+exports['default'] = Play;
+
+/***/ }),
+/* 228 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var PlayC = function PlayC() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, { id: 'play-circle', d: 'M6.3,10.49V5.2l3.91,2.64ZM8,15A7,7,0,1,0,1,8,7,7,0,0,0,8,15Z', fill: 'none', stroke: '#191919' })
+  );
+};
+
+exports['default'] = PlayC;
+
+/***/ }),
+/* 229 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Plus = function Plus() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Artboard', fill: '#191919' },
+        React.createElement(_reactSketchapp.Svg.Path, {
+          d: 'M9,7 L9,1 L7,1 L7,7 L1,7 L1,9 L7,9 L7,15 L9,15 L9,9 L15,9 L15,7 L9,7 Z',
+          id: 'Combined-Shape'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Plus;
+
+/***/ }),
+/* 230 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Radio = function Radio() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      version: '1.1',
+      id: 'Layer_1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      x: '0px',
+      y: '0px',
+      viewBox: '0 0 12 12',
+      width: '12',
+      height: '12'
+    },
+    React.createElement(_reactSketchapp.Svg.Circle, { cx: '8', cy: '8', r: '4' })
+  );
+};
+
+exports['default'] = Radio;
+
+/***/ }),
+/* 231 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Search = function Search() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      width: '16px',
+      height: '16px',
+      viewBox: '0 0 16 16',
+      version: '1.1',
+      xmlns: 'http://www.w3.org/2000/svg'
+    },
+    React.createElement(
+      _reactSketchapp.Svg.G,
+      { id: 'Page-1', stroke: 'none', strokeWidth: '1', fill: 'none', fillRule: 'evenodd' },
+      React.createElement(
+        _reactSketchapp.Svg.G,
+        { id: 'Icon-Search', fill: '#191919' },
+        React.createElement(_reactSketchapp.Svg.Path, {
+          d: 'M15.8542611,15.1535049 L11.7655867,11.0647737 C12.777995,9.89086069 13.3928933,8.364685 13.3928933,6.69653949 C13.3928933,3.00354925 10.3884984,0 6.69644664,0 C3.0043949,0 0,3.00443656 0,6.69653949 C0,10.3886424 3.0043949,13.393079 6.69644664,13.393079 C8.36456904,13.393079 9.89072356,12.7781721 11.0646203,11.7657498 L15.1532948,15.8544809 C15.2500104,15.9511979 15.3768942,16 15.503778,16 C15.6306617,16 15.7575455,15.9511979 15.8542611,15.8544809 C16.0485796,15.661047 16.0485796,15.3469388 15.8542611,15.1535049 Z M6.69644664,12.4010648 C3.55097118,12.4010648 0.992000444,9.84205856 0.992000444,6.69653949 C0.992000444,3.55102041 3.55097118,0.992014197 6.69644664,0.992014197 C9.84192211,0.992014197 12.4008928,3.55102041 12.4008928,6.69653949 C12.4008928,9.84205856 9.84192211,12.4010648 6.69644664,12.4010648 Z',
+          id: 'Shape-Copy-3'
+        })
+      )
+    )
+  );
+};
+
+exports['default'] = Search;
+
+/***/ }),
+/* 232 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Shield = function Shield() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'shield',
+      d: 'M14.16,7.89c0,3-4.95,6.73-6.16,7.61-1.22-.88-6.16-4.64-6.16-7.61v-5A6.52,6.52,0,0,0,7.71.5H8.24A6.56,6.56,0,0,0,14.16,3V7.89Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Shield;
+
+/***/ }),
+/* 233 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Signature = function Signature() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'signature',
+      d: 'M3.9,7.17s6.54-.67,6.54-4.44-5.72-.45-3.1,4.86S5.86,15.26,3.9,14.9C2.17,14.58,3.14,8,9.57,8c0,0,1.32-.14-0.21,2.92,0,0,2.45-4.1,3.35-3.21S12.55,10,12.55,10M0.5,12.56l15,0',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Signature;
+
+/***/ }),
+/* 234 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Star = function Star() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'star',
+      d: 'M8,12.7L3.36,15.13,4.25,10,0.5,6.32l5.18-.75L8,0.87l2.32,4.7L15.5,6.32,11.75,10l0.89,5.16Z',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Star;
+
+/***/ }),
+/* 235 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Store = function Store() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      d: 'M15,15.49H1V.51H15ZM10.12,9.16H5.88v6.33h4.24ZM16,.51H0M1,12.32H5.88m4.56,0h4M1,1.14V2.89A1.75,1.75,0,0,0,2.75,4.64h0A1.75,1.75,0,0,0,4.5,2.89V1.14m0,0V2.89A1.75,1.75,0,0,0,6.25,4.64h0A1.75,1.75,0,0,0,8,2.89V1.14m0,0V2.89A1.75,1.75,0,0,0,9.75,4.64h0A1.75,1.75,0,0,0,11.5,2.89V1.14m0,0V2.89a1.75,1.75,0,0,0,1.75,1.75h0A1.75,1.75,0,0,0,15,2.89V1.14',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Store;
+
+/***/ }),
+/* 236 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Teamwork = function Teamwork() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'teamwwork',
+      d: 'M4.83,2.93a2,2,0,1,1-2,2A2,2,0,0,1,4.83,2.93ZM0.5,13.07H9.16A4.35,4.35,0,0,0,.5,13.07ZM9.18,4.92a2,2,0,1,0,2-2A2,2,0,0,0,9.18,4.92Zm1.14,8.14H15.5a4.35,4.35,0,0,0-6.66-3.3',
+      fill: 'none',
+      stroke: '#191919'
+    })
+  );
+};
+
+exports['default'] = Teamwork;
+
+/***/ }),
+/* 237 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Tick = function Tick() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Polygon, { points: '6.3,11.8 3,8.5 4.3,7.1 6.3,9.1 11.7,3.8 13,5.1 ' })
+  );
+};
+
+exports['default'] = Tick;
+
+/***/ }),
+/* 238 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var TickC = function TickC() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      width: '16',
+      height: '16',
+      viewBox: '0 0 16 16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'tick-c',
+      d: 'M10,6l-2.6,3.9-1.3-1.3M8.06.9a7,7,0,1,0,7,7A7,7,0,0,0,8.06.9Z',
+      fill: 'none',
+      stroke: '#000',
+      stroleLinecap: 'round',
+      strokeLinejoin: 'round'
+    })
+  );
+};
+
+exports['default'] = TickC;
+
+/***/ }),
+/* 239 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var Ticket = function Ticket() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'ticket',
+      d: 'M10.4,15.5c-0.15,0-.57-2-2.66-2-1.87,0-2.28,2-2.42,2H2.5V0.5H5.6c0.15,0,.57,2,2.66,2,1.87,0,2.28-2,2.42-2H13.5v15H10.4ZM3,8.5H5m6,0h2m-6,0H9',
+      fill: 'none',
+      stroke: '#000',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    })
+  );
+};
+
+exports['default'] = Ticket;
+
+/***/ }),
+/* 240 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var TickStarred = function TickStarred() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    {
+      id: 'Layer_1',
+      'data-name': 'Layer 1',
+      xmlns: 'http://www.w3.org/2000/svg',
+      viewBox: '0 0 16 16',
+      width: '16',
+      height: '16'
+    },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'tick-starred',
+      d: 'M6,8.26L6.84,9.42l2.9-3M8,13.44L4.89,15.5,4.15,11.85,0.5,11.11,2.56,8,0.5,4.89l3.65-.74L4.89,0.5,8,2.56,11.11,0.5l0.74,3.65L15.5,4.89,13.44,8l2.06,3.11-3.65.74L11.11,15.5Z',
+      fill: 'none',
+      stroke: '#000',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    })
+  );
+};
+
+exports['default'] = TickStarred;
+
+/***/ }),
+/* 241 */
+/***/ (function(module, exports, __webpack_require__) {
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var React = _interopRequireWildcard(_react);
+
+var _reactSketchapp = __webpack_require__(22);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj['default'] = obj; return newObj; } }
+
+var TravelIdea = function TravelIdea() {
+  return React.createElement(
+    _reactSketchapp.Svg,
+    { id: 'Layer_1', 'data-name': 'Layer 1', xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 16 16', width: '16', height: '16' },
+    React.createElement(_reactSketchapp.Svg.Path, {
+      id: 'ideas_travel',
+      'data-name': 'ideas travel',
+      d: 'M6,15.5l4,0M7.92,14v1.32M4.81,11.18a5.32,5.32,0,1,0-2.06-3M8.43,6.87L0.75,8.69l2.13,1,1,0.86,0.81,0.71Zm0,0L2.88,9.69l0,1.56,1-.7M5,12.91A6.85,6.85,0,1,0,10.68.5',
+      fill: 'none',
+      stroke: '#000',
+      strokeLinecap: 'round',
+      strokeLinejoin: 'round'
+    })
+  );
+};
+
+exports['default'] = TravelIdea;
 
 /***/ })
 /******/ ]);
